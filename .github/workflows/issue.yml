@@ -3,6 +3,7 @@ on: [issue]
 
 jobs:
   detect-issue:
+    runs-on: ubuntu-lastest
     steps:
       - name: issue detected
         run: echo 'someone create a issue'
