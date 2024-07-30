@@ -1,0 +1,8 @@
+name: test issue event
+on: [issue]
+
+jobs:
+  detect-issue:
+    steps:
+      - name: issue detected
+        run: echo 'someone create a issue'
