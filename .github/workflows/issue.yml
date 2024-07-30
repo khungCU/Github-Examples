@@ -1,5 +1,5 @@
 name: test issue event
-on: [issue]
+on: [issues]
 
 jobs:
   detect-issue:
