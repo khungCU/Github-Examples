@@ -1,9 +1,0 @@
-name: test issue event
-on: [issues]
-
-jobs:
-  detect-issue:
-    runs-on: ubuntu-latest
-    steps:
-      - name: issue detected
-        run: echo 'someone create a issue'
