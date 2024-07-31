@@ -2,3 +2,4 @@ flask
 sphinx
 django
 pandas
+psycopg2
